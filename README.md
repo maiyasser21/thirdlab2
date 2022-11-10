@@ -1,25 +1,25 @@
 # thirdlab2
 LAB 2 Github
 1- 
-git init, 
-git remote add origin git@github.com:maiyasser21/thirdlab2.git, 
-git branch -M main,
-git add .,
-git commit -m "third",
-git push -u origin main,
+git init --
+git remote add origin git@github.com:maiyasser21/thirdlab2.git --
+git branch -M main --
+git add . --
+git commit -m "third" --
+git push -u origin main --
 
 2-
-git checkout -b dev,
-git push origin dev,
-touch file1.txt,
-git add .,
-git commit -m "fileupload",
-git push origin dev,
-git checkout -b test,
-touch test.txt,
-git add .,
-git commit -m "test",
-git push origin test,
+git checkout -b dev --
+git push origin dev --
+touch file1.txt --
+git add . --
+git commit -m "fileupload" --
+git push origin dev --
+git checkout -b test --
+touch test.txt --
+git add . --
+git commit -m "test" --
+git push origin test --
 
 3-
 git checkout main --

@@ -63,6 +63,5 @@ git add readme.txt
 git commit -m "readmeadded"
 git push
 
-
 #image 
 ![iti](https://user-images.githubusercontent.com/90289910/201142636-e8f2ad55-c682-4346-a0ee-00834971ba72.jpg)

@@ -22,46 +22,46 @@ git commit -m "test",
 git push origin test,
 
 3-
-git checkout main
-git merge dev
-git add .
-git push origin main
+git checkout main --
+git merge dev --
+git add . --
+git push origin main --
 
-git merge test
-git add .
-git push origin main
+git merge test --
+git add . -- 
+git push origin main 
 
 4-
-git push origin :dev
+git push origin :dev --
 
-git branch -d dev
-git push origin :test
-git branch -d test
+git branch -d dev --
+git push origin :test --
+git branch -d test --
 
 5- 
-git stash
-git checkout main
+git stash --
+git checkout main --
 
 6-
-git tag -a v1.7 -m "version 1.7"
+git tag -a v1.7 -m "version 1.7" -- 
 
 
 7-
-git push origin v1.7
+git push origin v1.7 --
 git push --tags
 
 8-
-git tag
+git tag --
 
 9-
-remote: git push origin --delete v1.7
+remote: git push origin --delete v1.7 --
 local: git tag -d v1.7
 
 10-
-touch readme.txt
-git add readme.txt
-git commit -m "readmeadded"
-git push
+touch readme.txt --
+git add readme.txt --
+git commit -m "readmeadded" --
+git push 
 
 #image 
 ![iti](https://user-images.githubusercontent.com/90289910/201142636-e8f2ad55-c682-4346-a0ee-00834971ba72.jpg)
